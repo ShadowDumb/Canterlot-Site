@@ -1,2 +1,2 @@
 
-这是基于[CF-Worker-Dir](http://gethe.best/)修改的网站导航页面。
+这是基于[CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)修改的网站导航页面。
