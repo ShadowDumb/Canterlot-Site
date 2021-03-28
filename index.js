@@ -17,7 +17,7 @@ const config = {
       template:"https://cloudsdale.xyz/0:search?q=$s"
     },
     {
-      name:"新闻",
+      name:"资讯",
       template:"https://www.equestriacn.com/?s=$s"
     },
     {
@@ -39,7 +39,7 @@ const config = {
   },
   lists: [                            //Url list
     {
-      name:"新闻",
+      name:"资讯",
       icon:"bullhorn",
       list:[
         {
@@ -537,7 +537,7 @@ function renderMain() {
 
     return el('div',['class="ui basic segment"'],divider + content);
   }).join("");
-  
+
   return el('main',[],el('div',['class="ui container"'],main));
 }
 
