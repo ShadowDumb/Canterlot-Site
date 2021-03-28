@@ -3,7 +3,7 @@
  */
 const config = {
   title: "坎特洛特 - 交通枢纽",                 //write your website title
-  subtitle: "上次更新：2021.03.17", //write your website subtitle
+  subtitle: "上次更新：2021.03.28", //write your website subtitle
   logo_icon: "location arrow",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: false,                     //use hitokoto or not
   search:true,                        //enable search function
@@ -35,7 +35,7 @@ const config = {
         type:"envelope",               //contact type ("weixin","qq","telegram plane","envelope" or "phone")
         content:"info@example.com"
       }
-    ]                        
+    ]
   },
   lists: [                            //Url list
     {
@@ -51,6 +51,16 @@ const config = {
           url:"https://www.equestriadaily.com/",
           name:"*EquestriaDaily",
           desc:"小马国日报"
+        },
+        {
+          url:"https://everypony.ru/",
+          name:"EveryPony",
+          desc:"俄罗斯小马新闻站"
+        },
+        {
+          url:"https://leponeyblanc.fr/",
+          name:"Le Poney Blanc",
+          desc:"法国小马新闻站"
         }
       ]
     },
@@ -436,6 +446,11 @@ const config = {
           desc:"CloudsDale，存储了所有小马剧集和部分同人游戏"
         },
         {
+          url:"http://manhua.dmzj.com/tags/search.shtml?s=%E5%BD%A9%E8%99%B9%E5%B0%8F%E9%A9%AC",
+          name:"小马官漫",
+          desc:"中文漫画"
+        },
+        {
           url:"https://needforponies.fr/",
           name:"*Need for Ponies",
           desc:"内有小马剧集/电影/视频/漫画/音乐"
@@ -454,11 +469,6 @@ const config = {
           url:"http://www.mlpstream.org/",
           name:"MLP Stream",
           desc:"S1 至 S7 资源超清在线观看/下载"
-        },
-        {
-          url:"https://t.me/MLP_FIM_Episoden_English",
-          name:"*MLP FIM Episoden English",
-          desc:"实时推送最新剧集"
         }
       ]
     }
@@ -554,6 +564,7 @@ function renderHTML(index,seller) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/ShadowDumb/Canterlot-Site/master/favicon.png" type="image/x-icon">
       <link href="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
