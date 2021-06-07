@@ -3,7 +3,7 @@
  */
 const config = {
   title: "坎特洛特 - 交通枢纽",                 //write your website title
-  subtitle: "上次更新：2021.03.28", //write your website subtitle
+  subtitle: "上次更新：2021.06.07", //write your website subtitle
   logo_icon: "location arrow",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: false,                     //use hitokoto or not
   search:true,                        //enable search function
@@ -377,6 +377,11 @@ const config = {
           url:"https://github.com/JockeTF/fimfarchive",
           name:"Fimfarchive",
           desc:"FimFiction 全站小说打包收录项目"
+        },
+        {
+          url:"https://clopfic.com/",
+          name:"Clopfiction",
+          desc:"由 Cloppers 创作的 Clopfics，注意 NSFW"
         }
       ]
     },
