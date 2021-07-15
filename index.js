@@ -3,7 +3,7 @@
  */
 const config = {
   title: "坎特洛特 - 交通枢纽",                 //write your website title
-  subtitle: "上次更新：2021.06.07", //write your website subtitle
+  subtitle: "上次更新：2021.07.16", //write your website subtitle
   logo_icon: "location arrow",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: false,                     //use hitokoto or not
   search:true,                        //enable search function
@@ -137,7 +137,7 @@ const config = {
         {
           url:"http://ponyvillelive.com/",
           name:"*PonyvilleLive",
-          desc:"马镇直播"
+          desc:"马镇直播，音频视频都有"
         },
         {
           url:"https://pony.tube/",
@@ -166,19 +166,14 @@ const config = {
           desc:"小马镇，像素风小马交流网站"
         },
         {
-          url:"https://www.dolldivine.com/mlp-fim-pony-creator.php",
-          name:"*Pony Creator",
-          desc:"小马生成器"
+          url:"https://tsssf.net/",
+          name:"Twilight Sparkle's Secret Shipfic Folder",
+          desc:"暮光闪闪的私密粮仓在线玩"
         },
         {
           url:"https://www.dolldivine.com/my-little-pony-quiz.php",
           name:"*Which Pony Are You",
           desc:"小马性格判断"
-        },
-        {
-          url:"https://software.little.my/",
-          name:"My Little Software",
-          desc:"小马程序汇总"
         },
         {
           url:"https://cloudsdale.xyz/0:/%E5%BD%A9%E8%99%B9%E5%B0%8F%E9%A9%AC/%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6/",
@@ -189,6 +184,37 @@ const config = {
           url:"http://arcade.equestriagaming.net/",
           name:"*Equestria Gaming Arcade",
           desc:"小马游戏在线玩"
+        },
+        {
+          url:"https://www.mylittlekaraoke.com/",
+          name:"*My Little Karaoke",
+          desc:"我的小卡拉OK"
+        }
+      ]
+    },
+    {
+      name:"工具",
+      icon:"terminal",
+      list:[
+        {
+          url:"https://software.little.my/",
+          name:"My Little Software",
+          desc:"小马程序汇总"
+        },
+        {
+          url:"https://www.dolldivine.com/mlp-fim-pony-creator.php",
+          name:"*Pony Creator",
+          desc:"小马生成器"
+        },
+        {
+          url:"https://15.ai/",
+          name:"15.ai",
+          desc:"小马及其他角色ai配音网站"
+        },
+        {
+          url:"https://ponyfrance.net/",
+          name:"*Pony France",
+          desc:"小马网站托管"
         }
       ]
     },
@@ -251,6 +277,11 @@ const config = {
           url:"https://manebooru.art/",
           name:"Manebooru",
           desc:"建站不久，但存有上百万同人图"
+        },
+        {
+          url:"https://ponybooru.org/",
+          name:"Ponybooru",
+          desc:"又一个类 Derpibooru 图站"
         },
         {
           url:"https://mlpvector.club/",
@@ -331,6 +362,11 @@ const config = {
           url:"https://www.deviantart.com/saturnspace/",
           name:"*Saturnspace",
           desc:"来看看博士和小呆"
+        },
+        {
+          url:"https://www.lionsgate.com/movies/my-little-pony-the-movie",
+          name:"*Lionsgate",
+          desc:"狮门影业，内含大电影相关的许多画作"
         }
       ]
     },
@@ -367,6 +403,11 @@ const config = {
           url:"https://www.ministryofimage.net/",
           name:"Ministry of Image",
           desc:"印象部是俄罗斯高质量小马同人书籍印刷站"
+        },
+        {
+          url:"https://ponyfeatherpublishing.com/",
+          name:"Ponyfeather Publishing",
+          desc:"小马书籍出版商"
         },
         {
           url:"http://book.fallout-equestria.com/",
@@ -410,6 +451,11 @@ const config = {
           desc:"《辐射：小马国》维基"
         },
         {
+          url:"https://fallout-equestria-remains.fandom.com/",
+          name:"*Fallout Equestria Remains Wiki",
+          desc:"《辐射小马国：废土》游戏维基"
+        },
+        {
           url:"https://austraeoh.huijiwiki.com/",
           name:"《东往之驹》中文维基",
           desc:"Imploding Colon 长篇同人系列中文资料站"
@@ -418,6 +464,22 @@ const config = {
           url:"http://www.mylittlewiki.org/",
           name:"My Little Wiki",
           desc:"G1 至 G4 玩具的详细介绍"
+        }
+      ]
+    },
+    {
+      name:"周边",
+      icon:"shopping cart",
+      list:[
+        {
+          url:"http://www.hasbro.cn/",
+          name:"孩之宝",
+          desc:"孩之宝中国官网"
+        },
+        {
+          url:"https://lunarshinestore.com/",
+          name:"LunarShine",
+          desc:"月光小店，有各类同人周边"
         }
       ]
     },
@@ -434,6 +496,11 @@ const config = {
           url:"http://www.theponyarchive.com/",
           name:"*The Pony Archive",
           desc:"小马档案馆，存放各种同人作品，不乏被删除的珍贵资源"
+        },
+        {
+          url:"https://eqmemory.cn/",
+          name:"马国记忆",
+          desc:"国内马迷发起的同人资源收集与整理项目"
         },
         {
           url:"https://dl.gdstudio.xyz/",
@@ -469,6 +536,11 @@ const config = {
           url:"http://www.newlunarrepublic.fr/",
           name:"*New Lunar Republic",
           desc:"新露娜共和国，内有小马剧集/电影/漫画"
+        },
+        {
+          url:"https://www.canterlotcomics.com/",
+          name:"*Canterlot Comics",
+          desc:"法语网站，同人小马漫画"
         },
         {
           url:"http://www.mlpstream.org/",
