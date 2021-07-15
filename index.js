@@ -194,7 +194,7 @@ const config = {
     },
     {
       name:"工具",
-      icon:"terminal",
+      icon:"wrench",
       list:[
         {
           url:"https://software.little.my/",
