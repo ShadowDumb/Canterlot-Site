@@ -212,6 +212,11 @@ const config = {
           desc:"小马及其他角色ai配音网站"
         },
         {
+          url:"https://ponyclock.com/",
+          name:"Pony Station",
+          desc:"小马官方电影与剧集倒计时"
+        },
+        {
           url:"https://ponyfrance.net/",
           name:"*Pony France",
           desc:"小马网站托管"
@@ -427,6 +432,27 @@ const config = {
       ]
     },
     {
+      name:"漫画",
+      icon:"object group outline",
+      list:[
+        {
+          url:"http://manhua.dmzj.com/tags/search.shtml?s=%E5%BD%A9%E8%99%B9%E5%B0%8F%E9%A9%AC",
+          name:"小马官漫",
+          desc:"中文漫画"
+        },
+        {
+          url:"https://www.canterlotcomics.com/",
+          name:"*Canterlot Comics",
+          desc:"法语网站，同人小马漫画"
+        },
+        {
+          url:"https://spaceponyos.com/",
+          name:"Space Ponyos",
+          desc:"Space Ponyos 专网"
+        }
+      ]
+    },
+    {
       name:"维基",
       icon:"info",
       list:[
@@ -518,11 +544,6 @@ const config = {
           desc:"CloudsDale，存储了所有小马剧集和部分同人游戏"
         },
         {
-          url:"http://manhua.dmzj.com/tags/search.shtml?s=%E5%BD%A9%E8%99%B9%E5%B0%8F%E9%A9%AC",
-          name:"小马官漫",
-          desc:"中文漫画"
-        },
-        {
           url:"https://needforponies.fr/",
           name:"*Need for Ponies",
           desc:"内有小马剧集/电影/视频/漫画/音乐"
@@ -536,11 +557,6 @@ const config = {
           url:"http://www.newlunarrepublic.fr/",
           name:"*New Lunar Republic",
           desc:"新露娜共和国，内有小马剧集/电影/漫画"
-        },
-        {
-          url:"https://www.canterlotcomics.com/",
-          name:"*Canterlot Comics",
-          desc:"法语网站，同人小马漫画"
         },
         {
           url:"http://www.mlpstream.org/",
