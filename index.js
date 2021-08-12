@@ -559,6 +559,11 @@ const config = {
           desc:"密码 Lp3TcG8S，由马迷“六六的哲学”制作的资源合辑"
         },
         {
+          url:"https://jirehlov.com/",
+          name:"Jirehlov 个人站点",
+          desc:"收集了许多小马相关资源的链接"
+        },
+        {
           url:"https://cloudsdale.xyz/",
           name:"云中城",
           desc:"CloudsDale，存储了所有小马剧集和部分同人游戏"
